@@ -1,0 +1,23 @@
+{
+  "name": "axolotl",
+  "version": "0.0.1",
+  "description": "Axolotl project web API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcfontecha/AxolotlAPI.git"
+  },
+  "dependencies": {
+    "express": "*",
+    "nodemon": "*"
+  },
+  "author": "Juan Carlos Fontecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcfontecha/AxolotlAPI/issues"
+  },
+  "homepage": "https://github.com/jcfontecha/AxolotlAPI#readme"
+}
