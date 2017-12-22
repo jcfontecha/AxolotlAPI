@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const TaskSchema = new Schema({
+const UserSchema = new Schema({
     name: {
         type: String,
         required: "Enter your name"
@@ -23,3 +23,5 @@ const TaskSchema = new Schema({
         default: Date.now
     }
 })
+
+module.exports = mongoose.model('Users', UserSchema)
